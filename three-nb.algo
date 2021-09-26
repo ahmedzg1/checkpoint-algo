@@ -1,0 +1,35 @@
+ALGORITHM algorithm_name
+VAR
+    Set1 : INTEGER 
+    set2 : INTEGER
+    set3 :INTEGER
+BEGIN
+    set1  := [3, 1, 7, 9, 2 ]
+    set2  := [2, 4, 1, 9, 3] 
+    set3   := []
+    sum  = 0
+    FOR i FROM 1 TO set2.length STEP 1  DO
+        IF (  set1[i]!=set2[i]) THEN
+            add(set3)
+       sum (set3)
+        END_IF
+    END_FOR
+END
+ALGORITHM algorithm_name
+VAR
+    sett1 : INTEGER
+    sett2 : INTEGER
+    sette3: INTEGER 
+ BEGIN
+    sett1 :=  [12, 13, 6, 10]
+    sett2 := [13, 10, 16, 15]
+    sett3 := []
+    sum  = 0
+FOR i FROM 1 TO sett1.length step 1 DO
+     IF (sett1[i]==sett2[i]) THEN
+         add (sett3)
+     write sum(sett3)
+     END_IF
+END_FOR
+END
+         
